@@ -139,7 +139,7 @@
 
 .panel-ops {
     width: 70%;
-    font-style: 0.85rem;
+    font-size: 0.75rem;
 }
 
 .panel-deals {
@@ -291,22 +291,25 @@ ul {
 .pages a{
     padding: 0px 5px;
 }
-
 @media screen and (max-width:1400px) {
     .navbar{
         flex-wrap: wrap;
-        height:170px;
+        height:141px;
     }
     .panel{
       display: flex;
       flex-wrap: wrap;
       height: 70px;
-      justify-content: space-between;
-      padding:10px 5px;
+  
+     padding:5px 10px;
     }
+
+.panel-ops{
+   
+}
     .hero-sec{
         width:100%;
-        height: 16vh;
+        height: 172px;
     }
     .shop{
         display: flex;
@@ -314,24 +317,62 @@ ul {
     }
 
     .box{
-        width:90vw;
-        margin: auto;
+        width:175px;
+        height:164px;
+        margin: 5px 5px;
         margin-top: 10px;
     }
+
+    .box-content h2 {
+        font-size: small;
+    }
+
+    .box-content div{
+          width:161px;
+          height:100px;
+    }
+    .box-content p{
+      font-size: small;
+    
+    }
+    
    .hero-msg {
-    font-size: small;
-    margin-bottom: 2px;
     height: 46px;
+    width: 100%;
+    margin: 0;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.hero-msg div {
+    background-color: #222f3d;
+    color:white;
+    width:100%;
+ height: 35px;
+ display: flex;
+ margin: 0px auto;
+ justify-content: center;
+ text-align: center;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
 .foot-p2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 390px;
-   
+    align-items: center;
+ 
 }
 .foot-p2 a {
     margin-top:5px;
+    
 }
 
 .foot-p4 {
