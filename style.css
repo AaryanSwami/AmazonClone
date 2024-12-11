@@ -13,6 +13,10 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.signin{
+    text-decoration: none;
+    color: white;
+}
 
 .nav-logo {
     height: 50px;
@@ -315,22 +319,22 @@ ul {
         display: flex;
         flex-wrap: wrap;
     }
-
-    .box{
-        width:175px;
-        height:164px;
-        margin: 5px 5px;
-        margin-top: 10px;
-    }
+   
+        .box {
+            width: 150px;
+            height: 141px;
+            margin: 5px 5px;
+            margin-top: 10px;
+        }
 
     .box-content h2 {
         font-size: small;
     }
 
-    .box-content div{
-          width:140px;
-          height:100px;
-    }
+        .box-content div {
+            width: 118px;
+            height: 74px;
+        }
     .box-content p{
       font-size: small;
     
